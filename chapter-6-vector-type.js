@@ -1,7 +1,13 @@
-/* this is my cod
+/* this is my code at first, but I find here is another writing way abou the length function, I get a little confused so I record it and try to figure it out.
+    get length() {
+        var x = this.x,
+            y = this.y;
+        return Math.sqrt(x * x + y * y);
+    }
+    and my the method above, you don't have to pass meaningless mane like the 0 in my code, so i think its very good
+*/
 
-
-// Your code here.
+// my code here.
 function Vector(x, y) {
   this.x = x;
   this.y = y;
